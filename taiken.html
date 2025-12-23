@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>パスワード入力ページ</title>
+  <title>正解入力ページ</title>
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -104,7 +104,7 @@
         window.location.href = REDIRECT_URL;
       } else {
         // 間違っている場合はエラーメッセージ表示
-        errorMessage.textContent = "パスワードが違います。もう一度入力してください。";
+        errorMessage.textContent = "答えが違います。もう少し頑張って。";
         passwordInput.value = "";
         passwordInput.focus();
       }
@@ -112,3 +112,4 @@
   </script>
 </body>
 </html>
+
